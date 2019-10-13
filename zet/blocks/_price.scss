@@ -1,0 +1,112 @@
+.price {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+
+.price__title {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+    font-weight: 800;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.price__subtitle {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 60px;
+}
+
+.price__subtitle:after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: $color-main;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.price__wrapper {
+    display: flex;
+}
+
+.price__item {
+    width: 33%;
+    border: 1px solid #eeeeee;
+    position: relative;
+    margin-top: 30px;
+}
+
+.price__item--main {
+    margin-top: 0;
+}
+
+.price__top {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.price__top--main {
+    border-top: 5px solid $color-main;
+}
+
+.price__bottom {
+    min-height: 260px;
+}
+
+.price__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.price__name {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 700;
+    color: #485563;
+}
+
+.price__name--main {
+    color: #29323c;
+}
+
+.price__cost {
+    font-family: "Montserrat";
+    font-size: 45px;
+    font-weight: 500;
+    color: #485563;
+    margin: 0;
+}
+
+.price__cost--main {
+    color: $color-main;
+}
+
+.price__period {
+    font-family: "Open Sans";
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.price__list-item {
+    margin: 14px 0;
+}
+
+.button--price {
+    background-color: #485563;
+    border: 1px solid #485563;
+    max-width: 125px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 20px;
+}

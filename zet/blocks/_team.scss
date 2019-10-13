@@ -1,0 +1,133 @@
+.team {
+    background-image: url(../img/img.png);
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(54, 64, 76, 0.7);
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+
+.team__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.team__title {
+    font-family: "Open Sans";
+    font-weight: 800;
+    font-size: 26px;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.team__subtitle {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 60px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 14px;
+    color: #f2f2f2;
+}
+
+.team__subtitle:after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.team__item {
+    max-width: 275px;
+    width: 100%;
+    background-color: #c8cdcf;
+    margin: 0 15px;
+}
+
+.team__item-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.team__social-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.team__social-link {
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.team__social-link:hover {
+    opacity: 0.8;
+}
+
+.team__overlay {
+    position: absolute;
+    top: 0;
+    bottom: 4px;
+    left: 0;
+    right: 0;
+    background-color: rgba(59, 70, 82, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.team__item-link {
+    display: block;
+    position: relative;
+}
+
+.team__overlay-title {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #e8e8e8;
+}
+
+.team__overlay-title:after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 15px; 
+}
+
+.team__item:hover .team__overlay {
+    opacity: 1; 
+}
+
+.team__name {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 15px;
+    color: #29323c;
+    margin: 0;
+}
+
+.team__position {
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: #29323c;
+    margin: 0;
+}

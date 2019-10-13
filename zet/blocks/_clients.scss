@@ -1,0 +1,80 @@
+.clients {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+
+.clients__title {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+    font-weight: 800;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.clients__subtitle {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 60px;
+}
+
+.clients__subtitle:after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: $color-main;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.clients__reviews {
+    margin: 0;
+    padding: 0;
+}
+
+.clients__reviews-text {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 70px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color: #2b3746;
+    position: relative;
+}
+
+.clients__reviews-text:after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/q.svg);
+    background-size: 100%;
+    bottom: -45px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+}
+
+.clients__reviews-picture {
+    margin: 0;
+    padding: 0;
+}
+
+.clients__reviews-prof {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.clients__reviews-name {
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+}

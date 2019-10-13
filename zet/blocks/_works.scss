@@ -1,0 +1,92 @@
+.works {
+    text-align: center;
+    padding-top: 90px;
+}
+
+.works__title {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+    font-weight: 800;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.works__subtitle {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 60px;
+}
+
+.works__subtitle:after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: $color-main;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+
+.works__wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.works__wrapper a {
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative; 
+}
+
+.works__wrapper img {
+    width: 100%;
+    height: 100%;
+    display: block; }
+  
+.works__item {
+    width: 20%;
+    position: relative;
+    overflow: hidden; 
+}
+
+.works__item:hover .works__overlay {
+    bottom: 0; 
+}
+
+.works__item  a {
+    display: block;
+    height: 100%;
+}
+
+.works__overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(64, 76, 89, 0.8);
+    transition: 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden; 
+}
+
+.works__overlay-title {
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    opacity: 1; 
+}
+
+.works__overlay-subtitle {
+    font-size: 15px;
+    color: #fff;
+    padding: 0 3px; }

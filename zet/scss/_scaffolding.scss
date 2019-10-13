@@ -1,0 +1,44 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: $color-main;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.button {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 700;
+    color: #e8e8e8;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: 1px solid #f2f2f2;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: $color-main;
+}
